@@ -1,32 +1,86 @@
-# AIDRA — Adaptive Intelligent Disaster Response Agent
+# AIDRA — AI-Driven Disaster Response System
 
-This repository contains AIDRA, an adaptive intelligent disaster response toolkit used for analyzing events and generating response metrics.
+## Overview
 
-Quick start
+AIDRA is an AI-based disaster response and rescue simulation system that helps optimize emergency rescue operations during disasters.
 
-1. Create and activate a Python virtual environment:
+The project combines:
+
+* Artificial Intelligence
+* Machine Learning
+* Search Algorithms
+* Constraint Satisfaction Problems (CSP)
+* Real-time simulation
+
+---
+
+## Features
+
+* Intelligent ambulance allocation
+* Victim rescue simulation
+* Hospital assignment system
+* Search algorithms (BFS, DFS, UCS, A*)
+* Machine learning decision engine
+* Dynamic aftershock events
+* Rescue performance metrics
+
+---
+
+## Technologies Used
+
+* Python
+* Pygame
+* NumPy
+* Scikit-learn
+* Pandas
+* Matplotlib
+* NetworkX
+
+---
+
+## Installation
 
 ```bash
-python -m venv .venv
-.\.venv\Scripts\activate
+pip install numpy pandas matplotlib scikit-learn pygame networkx
 ```
 
-2. Install dependencies (if you have a `requirements.txt`):
+---
 
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the main script:
+## Run the Project
 
 ```bash
 python main.py
 ```
 
-Files of interest
+---
 
-- `main.py` — entry point
-- `ml_models.py` — machine learning utilities
-- `metrics.py` — evaluation metrics
+## Project Structure
+
+```text
+AIDRA/
+├── main.py
+├── ml_models.py
+├── metrics.py
+├── search_algorithm.py
+├── csp_solver.py
+├── aftershocks.py
+└── events_system.py
+```
+
+---
+
+## Future Improvements
+
+* Reinforcement learning integration
+* Smart city disaster management
+* Real-time traffic system
+* Drone-based rescue support
+
+---
+
+## Author
+
+Rohan Munir
+
 
 If you'd like, I can add a `requirements.txt`, a license, or CI workflow next.
