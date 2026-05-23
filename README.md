@@ -23,7 +23,6 @@ The project combines:
 * Machine learning decision engine
 * Dynamic aftershock events
 * Rescue performance metrics
-
 ---
 
 ## Technologies Used
